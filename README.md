@@ -39,3 +39,17 @@ This is a simple Lost & Found System built with React (frontend) and Node.js (ba
 - Main colors: Blue (Trust), Gold (Accent), Green (Success), Red (Error)
 - Clean, modern look using Tailwind CSS
 - Simple and intuitive navigation
+
+**SAMPLE SCREENSHOT** 
+**USER**
+<img width="1919" height="782" alt="image" src="https://github.com/user-attachments/assets/5224d8d4-597c-4607-933e-33a432b207d4" />
+<img width="1910" height="846" alt="image" src="https://github.com/user-attachments/assets/7f04c9aa-f741-44b4-b6e7-42c706f70c7f" />
+<img width="1322" height="827" alt="image" src="https://github.com/user-attachments/assets/3b2eba86-4aeb-40b8-afd5-7fa6b67d3ecf" />
+<img width="1307" height="854" alt="image" src="https://github.com/user-attachments/assets/b584f0fc-4b25-4a3b-b293-d2bf604fadfd" />
+
+**GUEST**
+<img width="1524" height="861" alt="image" src="https://github.com/user-attachments/assets/d5713c1e-eb95-4471-b54a-c3d9ffe4709b" />
+
+**ADMIN**
+<img width="1330" height="859" alt="image" src="https://github.com/user-attachments/assets/27058e3f-6353-4a28-ad55-865313363139" />
+<img width="1369" height="754" alt="image" src="https://github.com/user-attachments/assets/915e11cb-330d-4601-a885-1768a9661479" />
