@@ -1,6 +1,6 @@
 # Lost & Found System
 
-This is a simple Lost & Found System built with React (frontend) and Node.js (backend). It helps people report lost or found items, view all reports, and manage them easily. The project uses modern tools and best practices.
+This is a simple Lost & Found System built with React (frontend) and Node.js (backend) with AI integration. It helps people report lost or found items, view all reports, and manage them easily. The project uses modern tools and best practices.
 
 ## Features
 
