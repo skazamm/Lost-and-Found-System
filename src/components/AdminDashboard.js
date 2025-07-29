@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useRef } from "react";
 import ReactDOM from "react-dom";
-import SpamReportsPanel from "./SpamReportsPanel"; // adjust the path if your file structure is different
+import SpamReportsPanel from "./SpamReportsPanel";
 
 
 // --- 3-dots menu button (per row) ---
@@ -24,7 +24,6 @@ function MenuButton({ onView, onEdit, onDelete }) {
   useEffect(() => {
     if (!open) return;
     const handleClick = (e) => {
-      // Close only if outside both menu and button
       if (
         btnRef.current &&
         (btnRef.current.contains(e.target) ||
@@ -200,7 +199,7 @@ return (
 
 }
 
-// --- Edit Modal (Best Practice: Edit ALL fields) ---
+// --- Edit Modal (Edit ALL fields) ---
 function EditReportModal({ open, report, onSave, onClose }) {
   const [form, setForm] = useState({
     title: "",
