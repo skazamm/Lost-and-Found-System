@@ -16,7 +16,7 @@ This is a simple Lost & Found System built with React (frontend) and Node.js (ba
 
 - **Frontend:** React, Tailwind CSS
 - **Backend:** Node.js, Express, PostgreSQL
-- **Other Tools:** Cloudinary (image upload), Supabase (Postgres hosting)
+- **Other Tools:** Cloudinary (image upload), Supabase (Postgres hosting), GPT 4.1
 
 ## How to Run the Project
 
