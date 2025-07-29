@@ -329,7 +329,7 @@ function MyReports() {
       }
     };
     fetchReports();
-  }, [message, editing]); // Refresh after message or edit
+  }, [message, editing]); 
 
   // Save changes (modal)
   const saveEdit = async (fields) => {
