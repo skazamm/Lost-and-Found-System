@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 
-// Best practice: Use a base URL variable for easy updates later.
 const API_URL = "http://localhost:5000/api";
 
 function ReportForm() {
@@ -50,7 +49,7 @@ function ReportForm() {
     }
 
     let photo_url = '';
-    // 1. Upload image if selected
+    //  Upload image if selected
     if (image) {
       const formData = new FormData();
       formData.append('image', image);
@@ -75,7 +74,7 @@ function ReportForm() {
       }
     }
 
-    // 2. Submit report, always include photo_url (even if empty)
+    // Submit report, always include photo_url (even if empty)
     try {
       const res = await fetch(`${API_URL}/reports`, {
         method: 'POST',
