@@ -5,7 +5,7 @@ import AdminDashboard from "./components/AdminDashboard";
 import Login from "./components/Login";
 import Register from "./components/Register";
 import Header from './components/Header';
-import React, { useState, useEffect } from "react"; // ← Add useEffect here
+import React, { useState, useEffect } from "react";
 const API_URL = "http://localhost:5000/api";
 
 function App() {
